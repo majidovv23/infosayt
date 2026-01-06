@@ -1,0 +1,166 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    header {
+      width: 100%;
+      background: #ffffff;
+      border-bottom: 1px solid #e5e7eb;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.06);
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      font-size: 20px;
+      color: #14532d;
+    }
+
+    .logo-box {
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      background: #14532d;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 28px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #000000;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #14532d;
+    } 
+
+    .btn {
+      padding: 10px 20px;
+      background: #14532d;
+      color: #ffffff;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .btn:hover {
+      background: #166534;
+    }
+
+    @media (max-width: 768px) {
+      nav ul {
+        display: none;
+      }
+    }
+    h1 {
+      text-align: center;
+      margin-top: 35px;
+      margin-bottom: 10px;
+    font-size: 50px;
+    line-height: var(--tw-leading, var(--text-5xl--line-height));
+}
+.asd{
+  color:rgb(70, 70, 70);
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.card {
+  width: 360px;
+  height: 450px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  font-family: Arial, sans-serif;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  /* object-fit: cover; */
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.badge {
+  display: inline-block;
+  background: #e6f4ea;
+  color: #2e7d32;
+  font-size: 12px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #111;
+}
+.cards {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 24px; /* ораси */
+  flex-wrap: wrap; /* кичик экранда пастга тушади */
+}
+.card p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.read-more {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-top: 12px;
+  color: #414141;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  color: #000000;
+}
+.card {
+  width: 360px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  transition: 
+    box-shadow 0.3s ease,
+    transform 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 18px 40px rgba(0,0,0,0.18);
+  transform: translateY(-6px);
+}
