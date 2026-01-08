@@ -130,17 +130,16 @@
   display: flex;
   gap: 24px; /* ораси */
   flex-wrap: wrap; /* кичик экранда пастга тушади */
+  padding-bottom: 5%;
 }
 .card p {
   font-size: 14px;
   color: #555;
   line-height: 1.6;
 }
-
 .read-more {
   display: inline-block;
-  vertical-align: bottom;
-  margin-top: 12px;
+  margin-top: auto;
   color: #414141;
   font-weight: 600;
   text-decoration: none;
@@ -241,7 +240,7 @@
 
 .footer-links h4,
 .footer-social h4 {
-  font-size: 16px;
+  font-size: 25px;
   font-weight: 600;
   margin-bottom: 16px;
 }
