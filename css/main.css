@@ -175,6 +175,7 @@ line-height: var(--tw-leading, var(--text-5xl--line-height));
   transform: translateY(-6px);
 }
 .footer {
+  margin-top: 5%;
   background-color: #ffffff;
   border-top: 1px solid #e5e7eb;
   padding: 60px 0 20px;
@@ -251,7 +252,7 @@ line-height: var(--tw-leading, var(--text-5xl--line-height));
 
 .footer-links h4,
 .footer-social h4 {
-  font-size: 25 px;
+  font-size: 25px;
   font-weight: 600;
   margin-bottom: 16px;
 }
@@ -282,6 +283,16 @@ line-height: var(--tw-leading, var(--text-5xl--line-height));
   gap: 12px;
 }
 
+.social-icons i {
+  color: #0f6d3f;
+  font-size: 30px;
+}
+
+.social-icons i:hover {
+  color: #094b2b;
+}
+
+
 .social {
   width: 40px;
   height: 40px;
@@ -307,6 +318,3 @@ line-height: var(--tw-leading, var(--text-5xl--line-height));
   font-size: 14px;
   color: #6b7280;
 } 
-.h4{
-  
-}
